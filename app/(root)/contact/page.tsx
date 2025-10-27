@@ -16,12 +16,9 @@ export default function ContactPage() {
       title={pagesConfig.contact.title}
       description={pagesConfig.contact.description}
     >
-      <div className="flex flex-col lg:flex-row">
-        <div className="flex-1">
+      <div className="flex">
+        <div className="w-full lg:w-3/5 mx-auto">
           <ContactForm />
-        </div>
-        <div className="flex-1 flex justify-center ">
-          <GithubRedirectCard />
         </div>
       </div>
     </PageContainer>

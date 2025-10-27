@@ -46,6 +46,15 @@ export function ContactForm() {
 
   // 2. Define a submit handler.
   async function onSubmit(values: z.infer<typeof formSchema>) {
+    storeModal.onOpen({
+    title: "Thankyou!",
+    description:
+      "Your message has been received! I appreciate your contact and will get back to you shortly.",
+    icon: Icons.successAnimated,
+  });
+  form.reset();
+  return;
+
     try {
       const response = await fetch("/api/contact", {
         method: "POST",

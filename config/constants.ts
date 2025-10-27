@@ -10,6 +10,7 @@ export type ValidSkills =
   | "Javascript"
   | "HTML 5"
   | "CSS 3"
+  | "Wordpress Theme Customization"
   | "React Native"
   | "Angular"
   | "Redux"
@@ -60,6 +61,7 @@ export type ValidSkills =
   | "FastAPI"
   | "SQL"
   | "NoSQL"
+  | "Zustand"
   | "Framer Motion";
 
 export type ValidCategory =

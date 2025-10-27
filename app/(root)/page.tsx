@@ -71,6 +71,7 @@ export default function IndexPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(softwareSchema) }}
       />
 
+      {/* hero section */}
       <section className="space-y-6 pb-8 pt-6 mb-0 md:pb-12 md:py-20 lg:py-32 h-screen flex items-center">
         <div className="container flex max-w-[64rem] flex-col items-center gap-4 text-center -mt-20">
           <Image
@@ -98,9 +99,7 @@ export default function IndexPage() {
           </AnimatedText>
           <div className="mt-4 max-w-[42rem] text-center">
             <p className="leading-normal text-muted-foreground text-sm sm:text-base">
-              Dynamic and detail-oriented Front-end Developer with a skill for user-friendly, solution effectively.
-              Experience with pixel-perfect web design, clean code and a fully modern website for going beyond web
-              technology.
+              Front-end focused Full-Stack Developer passionate about crafting intuitive, high-performance web applications with clean code and modern design.
             </p>
           </div>
 
@@ -136,6 +135,8 @@ export default function IndexPage() {
           </AnimatedText>
         </div>
       </section>
+
+      {/* skills section */}
       <AnimatedSection
         className="container space-y-6 bg-muted py-10"
         id="skills"
@@ -164,6 +165,8 @@ export default function IndexPage() {
           </Link>
         </AnimatedText>
       </AnimatedSection>
+
+      {/* project section */}
       <AnimatedSection
         direction="right"
         className="container space-y-6 py-10 my-14"
@@ -239,6 +242,8 @@ export default function IndexPage() {
           </Link>
         </AnimatedText>
       </AnimatedSection> */}
+
+      {/* experience section */}
       <AnimatedSection
         direction="left"
         className="container space-y-6 py-10 my-14"
@@ -259,7 +264,7 @@ export default function IndexPage() {
             {pagesConfig.experience.description}
           </AnimatedText>
         </div>
-        <div className="mx-auto grid justify-center gap-4 md:w-full lg:grid-cols-3">
+        <div className="mx-auto grid justify-center gap-4 md:w-full lg:grid-cols-2">
           {experiences.slice(0, 3).map((experience, index) => (
             <AnimatedSection
               key={experience.id}

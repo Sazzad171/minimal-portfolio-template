@@ -23,19 +23,33 @@ export const skillsUnsorted: skillsInterface[] = [
     icon: Icons.react,
   },
   {
-    name: "GraphQL",
+    name: "Javascript",
     description:
-      "Fetch data precisely with a powerful query language for APIs and runtime execution.",
-    rating: 4,
-    icon: Icons.graphql,
+      "Create interactive and dynamic web experiences with the versatile scripting language.",
+    rating: 5,
+    icon: Icons.javascript,
   },
   {
-    name: "Nest.js",
+    name: "Typescript",
     description:
-      "Create scalable and modular applications with a progressive Node.js framework.",
-    rating: 4,
-    icon: Icons.nestjs,
+      "Enhance JavaScript with static types, making code more understandable and reliable.",
+    rating: 5,
+    icon: Icons.typescript,
   },
+  // {
+  //   name: "GraphQL",
+  //   description:
+  //     "Fetch data precisely with a powerful query language for APIs and runtime execution.",
+  //   rating: 4,
+  //   icon: Icons.graphql,
+  // },
+  // {
+  //   name: "Nest.js",
+  //   description:
+  //     "Create scalable and modular applications with a progressive Node.js framework.",
+  //   rating: 4,
+  //   icon: Icons.nestjs,
+  // },
   {
     name: "express.js",
     description:
@@ -58,46 +72,18 @@ export const skillsUnsorted: skillsInterface[] = [
     icon: Icons.mongodb,
   },
   {
-    name: "Typescript",
-    description:
-      "Enhance JavaScript with static types, making code more understandable and reliable.",
-    rating: 5,
-    icon: Icons.typescript,
-  },
-  {
-    name: "Javascript",
-    description:
-      "Create interactive and dynamic web experiences with the versatile scripting language.",
-    rating: 5,
-    icon: Icons.javascript,
-  },
-  {
     name: "HTML 5",
     description:
       "Structure web content beautifully with the latest version of HyperText Markup Language.",
-    rating: 4,
+    rating: 5,
     icon: Icons.html5,
   },
   {
     name: "CSS 3",
     description:
       "Style web pages creatively with the latest iteration of Cascading Style Sheets.",
-    rating: 4,
+    rating: 5,
     icon: Icons.css3,
-  },
-  {
-    name: "React Native",
-    description:
-      "Develop cross-platform mobile apps using React for consistent and engaging experiences.",
-    rating: 4,
-    icon: Icons.react,
-  },
-  {
-    name: "Angular",
-    description:
-      "Build dynamic web apps with a TypeScript-based open-source framework by Google.",
-    rating: 3,
-    icon: Icons.angular,
   },
   {
     name: "Redux",
@@ -107,20 +93,12 @@ export const skillsUnsorted: skillsInterface[] = [
     icon: Icons.redux,
   },
   {
-    name: "Socket.io",
-    description:
-      "Enable real-time, bidirectional communication between clients and servers effortlessly.",
-    rating: 3,
-    icon: Icons.socketio,
-  },
-  {
     name: "Material UI",
     description:
       "Create stunning and responsive UIs with a popular React UI framework.",
-    rating: 4,
+    rating: 5,
     icon: Icons.mui,
   },
-
   {
     name: "Tailwind CSS",
     description:
@@ -129,17 +107,10 @@ export const skillsUnsorted: skillsInterface[] = [
     icon: Icons.tailwindcss,
   },
   {
-    name: "AWS",
-    description:
-      "Utilize Amazon Web Services to build and deploy scalable, reliable, and secure applications.",
-    rating: 3,
-    icon: Icons.amazonaws,
-  },
-  {
     name: "Bootstrap",
     description:
       "Quickly create responsive and appealing web designs using a popular CSS framework.",
-    rating: 2,
+    rating: 5,
     icon: Icons.bootstrap,
   },
   {
