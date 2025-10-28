@@ -5,7 +5,7 @@ export default function manifest(): MetadataRoute.Manifest {
     name: "Sazzad Bin Jafor Portfolio",
     short_name: "Naman's Portfolio",
     description:
-      "Sazzad Bin Jafor's modern developer portfolio built with Next.js - available as an open-source template",
+      "Sazzad Bin Jafor's modern developer portfolio built with Next.js",
     start_url: "/",
     display: "standalone",
     background_color: "#ffffff",

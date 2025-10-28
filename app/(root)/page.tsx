@@ -20,7 +20,7 @@ import { cn } from "@/lib/utils";
 import profileImg from "@/public/profile-img.jpg";
 
 export const metadata: Metadata = {
-  title: `${pagesConfig.home.metadata.title} | Modern Next.js Developer Portfolio`,
+  title: `${pagesConfig.home.metadata.title}`,
   description: `${pagesConfig.home.metadata.description} Showcase your skills and projects.`,
   alternates: {
     canonical: siteConfig.url,
