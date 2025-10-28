@@ -80,7 +80,7 @@ export default function IndexPage() {
             width={100}
             sizes="100vw"
             className="bg-primary rounded-full mb-0 h-auto md:mb-2 w-[60%] max-w-[16rem] border-8 border-primary"
-            alt="Naman Barkiya - Full Stack Developer Portfolio"
+            alt="Sazzad Bin Jafor - Full Stack Developer Portfolio"
             priority
           />
           <AnimatedText
@@ -109,7 +109,7 @@ export default function IndexPage() {
                 href={"https://github.com/Sazzad171"}
                 target="_blank"
                 className={cn(buttonVariants({ size: "lg" }))}
-                aria-label="View Naman Barkiya's GitHub profile"
+                aria-label="View Sazzad Bin Jafor's GitHub profile"
               >
                 <Icons.gitHub className="w-4 h-4 mr-2" /> GitHub
               </Link>
@@ -124,7 +124,7 @@ export default function IndexPage() {
                     size: "lg",
                   })
                 )}
-                aria-label="Contact Naman Barkiya"
+                aria-label="Contact Sazzad Bin Jafor"
               >
                 <Icons.contact className="w-4 h-4 mr-2" /> Contact
               </Link>

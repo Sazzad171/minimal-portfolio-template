@@ -12,7 +12,7 @@ export const skillsUnsorted: skillsInterface[] = [
     name: "Next.js",
     description:
       "Effortlessly build dynamic apps with routing, layouts, loading UI, and API routes.",
-    rating: 5,
+    rating: 4,
     icon: Icons.nextjs,
   },
   {
@@ -33,7 +33,7 @@ export const skillsUnsorted: skillsInterface[] = [
     name: "Typescript",
     description:
       "Enhance JavaScript with static types, making code more understandable and reliable.",
-    rating: 5,
+    rating: 4,
     icon: Icons.typescript,
   },
   // {
@@ -50,27 +50,6 @@ export const skillsUnsorted: skillsInterface[] = [
   //   rating: 4,
   //   icon: Icons.nestjs,
   // },
-  {
-    name: "express.js",
-    description:
-      "Build web applications and APIs quickly using a fast, unopinionated Node.js framework.",
-    rating: 5,
-    icon: Icons.express,
-  },
-  {
-    name: "Node.js",
-    description:
-      "Run JavaScript on the server side, enabling dynamic and responsive applications.",
-    rating: 5,
-    icon: Icons.nodejs,
-  },
-  {
-    name: "MongoDB",
-    description:
-      "Store and retrieve data seamlessly with a flexible and scalable NoSQL database.",
-    rating: 5,
-    icon: Icons.mongodb,
-  },
   {
     name: "HTML 5",
     description:
@@ -117,7 +96,7 @@ export const skillsUnsorted: skillsInterface[] = [
     name: "MySQL",
     description:
       "Manage and organize relational databases efficiently for data-driven applications.",
-    rating: 2,
+    rating: 3,
     icon: Icons.mysql,
   },
   {
@@ -127,10 +106,32 @@ export const skillsUnsorted: skillsInterface[] = [
     rating: 4,
     icon: Icons.netlify,
   },
+    {
+    name: "express.js",
+    description:
+      "Build web applications and APIs quickly using a fast, unopinionated Node.js framework.",
+    rating: 3,
+    icon: Icons.express,
+  },
+  {
+    name: "Node.js",
+    description:
+      "Run JavaScript on the server side, enabling dynamic and responsive applications.",
+    rating: 3,
+    icon: Icons.nodejs,
+  },
+  {
+    name: "MongoDB",
+    description:
+      "Store and retrieve data seamlessly with a flexible and scalable NoSQL database.",
+    rating: 3,
+    icon: Icons.mongodb,
+  },
 ];
 
-export const skills = skillsUnsorted
-  .slice()
-  .sort((a, b) => b.rating - a.rating);
+// export const skills = skillsUnsorted
+//   .slice()
+//   .sort((a, b) => b.rating - a.rating);
+export const skills = skillsUnsorted;
 
 export const featuredSkills = skills.slice(0, 6);

@@ -30,10 +30,11 @@ export const experiences: ExperienceInterface[] = [
     ],
     achievements: [
       "Collaborated closely with product owners and designers for user-centric features, improving usability and trader workflows.",
+      "Optimized web application performance and delivered scalable, user-centric features."
     ],
     skills: ["Typescript", "React", "Next.js", "Javascript", "Tailwind CSS"],
     companyUrl: "https://technonext.com",
-    logo: "/logo.png",
+    logo: "/experience/tn-logo.jpg",
   },
   {
     id: "tcl",
@@ -48,10 +49,11 @@ export const experiences: ExperienceInterface[] = [
       "Email template design, PDF template design for clients.",
     ],
     achievements: [
-      "Created a Next.js dashboard for user analytics.",
+      "Delivered high-quality custom client solutions.",
+      "Enhanced client deliverables with custom design assets."
     ],
     skills: ["Javascript", "React", "Figma", "Wordpress Theme Customization", "HTML 5", "CSS 3"],
     companyUrl: "https://techcloudltd.com",
-    logo: "/logo.png",
+    logo: "/experience/tcl-logo.jpg",
   },
 ];

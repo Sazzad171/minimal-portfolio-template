@@ -79,7 +79,7 @@ export default function Project({ params }: ProjectPageProps) {
             />
 
             <div className="flex-1 text-left leading-tight">
-              <p className="font-medium">{"Naman Barkiya"}</p>
+              <p className="font-medium">{"Sazzad Bin Jafor"}</p>
               <p className="text-[12px] text-muted-foreground">
                 @{siteConfig.username}
               </p>
@@ -116,9 +116,9 @@ export default function Project({ params }: ProjectPageProps) {
       </div>
 
       <div className="mb-7 ">
-        <h2 className="inline-block font-heading text-3xl leading-tight lg:text-3xl mb-5">
+        {/* <h2 className="inline-block font-heading text-3xl leading-tight lg:text-3xl mb-5">
           Page Info
-        </h2>
+        </h2> */}
         {project.pagesInfoArr.map((page, ind) => (
           <div key={ind}>
             <h3 className="flex items-center font-heading text-xl leading-tight lg:text-xl mt-3">
