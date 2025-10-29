@@ -62,6 +62,7 @@ export type ValidSkills =
   | "SQL"
   | "NoSQL"
   | "Zustand"
+  | "Shadecn"
   | "Framer Motion";
 
 export type ValidCategory =
